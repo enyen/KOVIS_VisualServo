@@ -1,6 +1,11 @@
 # KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation
 
-This repo covers the data generation, training and inference of kovis visual servos.
+This repo covers the data generation, training and inference of kovis visual servos introduced in 
+[KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation](https://arxiv.org/abs/2007.13960) (IROS 2020) 
+by [En Yen Puang](https://scholar.google.com/citations?user=jePmCqAAAAAJ), 
+[Keng Peng Tee](https://scholar.google.com/citations?user=xO_OuigAAAAJ) and 
+[Wei Jing](https://scholar.google.com/citations?user=12L_IZMAAAAJ).
+
 Inference uses UR5, realsense D435 camera, ROS and urx.
 
 [ [Paper](https://arxiv.org/abs/2007.13960) ] [ [Video](https://www.youtube.com/watch?v=gfBJBR2tDzA) ]
@@ -60,11 +65,22 @@ rob.set_gripper(1)
 # continue
 # TODO: move object away
 ```
+
 # Citation
 Please cite our paper if you use this code.
-> E. Y. Puang, K. Peng Tee and W. Jing, "KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation," 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020, pp. 7527-7533, doi: 10.1109/IROS45743.2020.9341370.
 
+      @inproceedings{puang2020kovis,
+        title={KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation},
+        author={Puang, En Yen and Tee, Keng Peng and Jing, Wei},
+        booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+        pages={7527--7533},
+        year={2020},
+        organization={IEEE}
+      }
 
 # License
-This code is under GPL-3.0 License.
-E-mail me to discuss other license agreement.
+This code is under GPL-3.0 License. Contact
+
+puangenyen at gmail . com 
+
+to discuss other license agreement.
