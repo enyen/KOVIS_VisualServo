@@ -1,0 +1,36 @@
+# grid sampling
+case_pos: [0.6, 0, 0.7]
+case_rot: [0, 0, 0]
+obj_pos_ctr: [-0.05, 0.031, 0.115]
+obj_pos_rag: [0, 0, 0]
+obj_rot_ctr: [0, 1.5708, 0]
+obj_rot_rag: [6.2832, 0, 0]
+tcp_pos_ctr: [-0.065, 0, 0]
+tcp_pos_rag: [0, 0, 0]
+tcp_rot_ctr: [0, 0, 0]
+tcp_rot_rag: [0, 0, 0]
+
+# simulation
+dir_dataset: ['dataset/insert_shaft/train', 'dataset/insert_shaft/test']
+time_step: [0.001, 0.022]
+img_size: [128, 128]
+object: 'shaft'
+data_size: [7000, 300]
+rot_mul: 5
+
+# rollout
+gripper_joint: 0.65
+rollout_step: 5
+rollout_vel_lin_ctr: [0, 0, 0]
+rollout_vel_lin_rag: [1, 1, 1]
+rollout_vel_rot_ctr: [0, 0, 0]
+rollout_vel_rot_rag: [1, 0, 0]
+
+# camera
+cam_pos_ctr: [0, 0, 0]
+cam_pos_rag: [0.02, 0.02, 0.02]
+cam_rot_ctr: [0, 0, 0]
+cam_rot_rag: [0.1, 0.1, 0.1]
+cam_clip: [0.03, 0.55]
+fov: [53, 63]
+baseline: [0.04, 0.06]

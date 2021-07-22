@@ -1,0 +1,41 @@
+task: 'full'
+im_size: [[96, 96], [48, 48]]
+num_input: 1
+num_output: [1, 3]
+num_keypoint: 8
+growth_rate: [24, 24, 64]
+blk_cfg_enc: [[2, 3, 4], [4, 3, 2]]
+blk_cfg_dec: [4, 3]
+blk_cfg_cvt: [4, 4, 4]
+drop_rate: 0
+lr: 0.001
+wd: [0, 0, 0]
+lr_anne: 'repeat'
+
+batch_size: 128
+ep_train: 24
+bootstrap: 0.3
+concentrate: -20
+inside: 50
+sigma_kp: [1.0, 2.5]
+a_dist: -200
+
+obj_class: [0, 1, 2]
+motion_vec: [True, True, True, True, False, False]
+mean: 0.41
+std: 0.26
+cam_clip: [0.05, 0.49]
+
+texture: [0, 40]
+hue: [0, 0]
+saturation: [1, 1]
+brightness: [0.4, 1.3]
+contrast: [0.3, 1.7]
+sharp: [0.5, 1.5]
+gamma: [1, 1]
+blur: [0.1, 0.5]
+noise: [8, 40]
+bg: 1
+
+dir_base: 'result/pick_mug'
+dir_dataset: 'dataset/pick_mug'
