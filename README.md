@@ -1,10 +1,13 @@
 # KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation
+
 This repo covers the data generation, training and inference of kovis visual servos.
 Inference uses UR5, realsense D435 camera, ROS and urx.
 
+[ [Paper](https://arxiv.org/abs/2007.13960) ] [ [Video](https://www.youtube.com/watch?v=gfBJBR2tDzA) ]
+
 [![KOVIS](https://img.youtube.com/vi/gfBJBR2tDzA/0.jpg)](http://www.youtube.com/watch?v=gfBJBR2tDzA)
 
-## Installation
+# Installation
 We recommend using virtual python environment like [Conda](https://docs.conda.io/en/latest/miniconda.html) with python3.
 1. Install [PyTorch](https://pytorch.org/)
 2. Install other packages
@@ -18,7 +21,7 @@ pip install -r requirements.txt
 pip install git+https://github.com/enyen/python-urx
 ```
 
-## Usage
+# Usage
 
 1. Generate training data in pyBullet:
 
@@ -57,6 +60,11 @@ rob.set_gripper(1)
 # continue
 # TODO: move object away
 ```
-## Citation
+# Citation
 Please cite our paper if you use this code.
 > E. Y. Puang, K. Peng Tee and W. Jing, "KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation," 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020, pp. 7527-7533, doi: 10.1109/IROS45743.2020.9341370.
+
+
+# License
+This code is under GPL-3.0 License.
+E-mail me to discuss other license agreement.
