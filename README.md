@@ -10,7 +10,7 @@ Inference uses UR5, realsense D435 camera, ROS and urx.
 
 [ [Paper](https://arxiv.org/abs/2007.13960) ] [ [Video](https://www.youtube.com/watch?v=gfBJBR2tDzA) ]
 
-[![KOVIS](https://img.youtube.com/vi/gfBJBR2tDzA/0.jpg)](http://www.youtube.com/watch?v=gfBJBR2tDzA)
+![demo](demo.gif)
 
 # Installation
 We recommend using virtual python environment like [Conda](https://docs.conda.io/en/latest/miniconda.html) with python3.
